@@ -1,13 +1,11 @@
-p.speech{font-family: "Times New Romen",Times,serif;font-size: 15px;color:blue}
-p.direction{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color:black}
+p.speech{font-family: "Times New Romen",Times,serif;size: 15px;color:blue}
+p.direction{font-family: Arial, Helvetica, sans-serif;size: 15px;color:black;background-color:pink}
 p.direction:hover{background-color:darksalmon;}
-.OLLIVANT{
-    color:brown;
-}
+.OLLIVANT{color:brown;}
 .MARY{color:darkorange;}
 .EMILY{color:deeppink;}
 .table,th,td{
-    border:1px;solid;
+    border:1px solid;
     border-collapse:collapse;
     padding-top:20px;
     padding-right:20px;
@@ -22,6 +20,7 @@ p.direction:hover{background-color:darksalmon;}
     margin-left:20px;
     
 }
+
 tr:nth-child(even){background-color:chartreuse;}
 .OLLIVANT:hover{text-shadow: 4px 4px fuchsia;}
 .MARY:hover{text-shadow: 4px 4px cornflowerblue;}
@@ -29,40 +28,21 @@ tr:nth-child(even){background-color:chartreuse;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*u1.navbar-horizontal{
+ul.navbar-horizontal{
     list-style-type:none;
     margin:0;
     padding:0;
 }
-u1.navbar-horizontal li{
+ul.navbar-horizontal li{
     float:left;
-    color:coral;
-    background-color:dimgrey;
+    color: #000;
+    background-color:rgb(43, 200, 220);
 }
-u1.navbar-haorixontal a{
+ul.navbar-haorixontal a{
     display:block;
-    padding:10px;
+    padding:10px
 }
-u1.navbar-horizontal a:hover{
+ul.navbar-horizontal a:hover{
     background-color:olive;
-    color:lightcoral;
+    color:whitesmoke;
 }
-*/
