@@ -22,9 +22,10 @@ p.direction:hover{background-color:darksalmon;}
 }
 
 tr:nth-child(even){background-color:chartreuse;}
-.OLLIVANT:hover{text-shadow: 4px 4px fuchsia;}
-.MARY:hover{text-shadow: 4px 4px cornflowerblue;}
-.EMILY:hover{text-shadow:4px 4px forestgreen;}
+.OLLIVANT:hover{color:white;
+    text-shadow: 4px 4px fuchsia,0 0 5px blue,0 0 5px darkblue}
+.MARY:hover{color:beige;text-shadow: 4px 4px cornflowerblue,0 0 5px orange,0 0 5px maroon}
+.EMILY:hover{color:cyan;text-shadow:4px 4px forestgreen,0 0 5px indigo,0 0 5px orange}
 
 
 
@@ -46,3 +47,5 @@ ul.navbar-horizontal a:hover{
     background-color: #555;
     color:whitesmoke;
 }
+
+
